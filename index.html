@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Muhammad Rabih Atsyah</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Portofolio</div>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Keahlian</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Halo, Saya <span class="highlight">Muhammad Rabih Atsyah</span></h1>
+    <a href="#tampilan-penuh">
+      <img src="Profil.jpeg" alt="Foto Profil" class="foto-bulat">
+    </a>
+
+    <div id="tampilan-penuh" class="overlay-pop-up">
+      <a href="#" class="tombol-tutup">&times;</a>
+      <img src="Profil.jpeg" alt="Foto Profil" class="foto-normal">
+    </div>
+    <p>Saya seorang Web Developer pemula yang suka belajar hal baru.</p>
+    <a href="#contact" class="btn">Hubungi Saya</a>
+  </section>
+
+  <section id="about" class="container">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saat ini saya sedang mendalami dunia pemrograman web. Saya berfokus pada 
+      pembuatan tampilan website yang rapi, responsif, dan gampang di mengerti.
+    </p>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Keahlian Saya</h2>
+    <div class="skills-list">
+
+      <div class="skills-card">
+        <img src="HTML5.jpg" alt="Foto Card" class="img-card">
+        <h3>HTML5</h3>
+        <p>Mampu menyusun struktur halaman web yang semantis, rapi, dan mudah diakses menggunakan elemen-elemen standar HTML5.</p>
+      </div>
+
+      <div class="skills-card">
+        <img src="CSS3.jpg" alt="Foto Card" class="img-card">
+        <h3>CSS3</h3>
+        <p>Terbiasa mendesain tampilan web yang responsif dan menarik menggunakan Flexbox, Grid, serta teknik styling modern.</p>
+      </div>
+
+      <div class="skills-card">
+        <img src="JavaScript.jpg" alt="Foto Card" class="img-card">
+        <h3>JavaScript</h3>
+        <p>Menggunakan JavaScript untuk membuat fitur interaktif sederhana, manipulasi DOM, dan menangani event pada halaman web.</p>
+      </div>
+
+      <div class="skills-card">
+        <img src="Git & GitHub.jpg" alt="Foto Card" class="img-card">
+        <h3>GIt & GitHub</h3>
+        <p>Mengelola versi kode sumber proyek secara terstruktur serta melakukan push dan kolaborasi dasar menggunakan Git & GitHub.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Proyek Saya</h2>
+    <div class="project-grid">
+      
+      <div class="project-card">
+        <h3>Website Portofolio</h3>
+        <p>● Mengembangkan website portofolio pribadi interaktif dari nol menggunakan HTML, CSS, dan JavaScript murni tanpa framework tambahan, demi memastikan performa yang optimal dan clean code.</p>
+        <p>● Dirancang secara khusus untuk showcase profil, skill, serta daftar project secara up-to-date agar kredibilitas dan portofolio profesional semakin dilirik banyak orang.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Hubungi Saya</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nama Anda" required>
+      <input type="email" id="email" placeholder="Email Anda" required>
+      <textarea id="message" placeholder="Pesan Anda" rows="4" required></textarea>
+      <button type="submit" class="btn">Kirim Pesan</button>
+    </form>
+    <p id="formStatus" class="status-msg"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Muhammad Rabih Atsyah. Dibuat dengan semangat belajar.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
