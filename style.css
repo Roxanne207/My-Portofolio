@@ -161,10 +161,13 @@ nav a:hover {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
+  box-shadow: 0 0 15px rgba(2, 80, 190, 0.7);
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
   background-color: #0056b3;
+  box-shadow: 0 0 25px rgba(2, 80, 190, 0.7), 0 0 50px rgba(9, 124, 255, 0.5);
 }
 
 .container {
